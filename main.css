@@ -1,0 +1,53 @@
+.container {
+  margin: 0 auto;
+  width: 768px;
+}
+
+header {
+  background-color: black;
+}
+
+#logo {
+  display: block;
+  margin: 0 auto;
+}
+
+small.page_no {
+  float: right;
+  color: #ddd;
+}
+
+ .pagination ul {
+  display: inline-block;
+  padding: 0;
+  margin: 10px 0 30px 0;
+}
+
+.pagination ul li {
+  display: inline;
+}
+
+
+.pagination ul li a {
+  border: 1px solid gray;
+  color: black;
+  float: left;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+.pagination ul li .first {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.pagination ul li .last {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.pagination ul li .disabled{
+    color:gray;
+}
+.active {
+    background-color: lightgray;
+}
